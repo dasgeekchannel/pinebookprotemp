@@ -11,5 +11,6 @@ Step 4: Run the file by typing './pinetemp'
 <br>
 Profit!
 <br>
-Determining type by navigating to /sys/devices/virtual/thermal/ and then to correspinding zones such as cd thermal_zone0 then running a cat on the type. $ cat type
+### How this works
+Determines temp and type by navigating to /sys/devices/virtual/thermal/ and then to correspinding zones such as cd thermal_zone0 then running a cat on the type to distinguish between GPU and CPU. $ cat type
 
